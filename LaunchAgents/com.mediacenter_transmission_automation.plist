@@ -10,6 +10,8 @@
 	<array>
 		<string>/Users/strangeluck/Scripts/transmission_automation.sh</string>
 	</array>
+	<key>KeepAlive</key>
+	<true/>
 	<key>StartInterval</key>
 	<integer>120</integer>
 </dict>

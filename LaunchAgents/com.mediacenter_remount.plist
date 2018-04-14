@@ -10,6 +10,8 @@
 	<array>
 		<string>/Users/strangeluck/Scripts/mediacenter_automount.sh</string>
 	</array>
+	<key>KeepAlive</key>
+	<true/>
 	<key>StartInterval</key>
 	<integer>30</integer>
 </dict>
