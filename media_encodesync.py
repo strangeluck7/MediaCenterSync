@@ -41,11 +41,11 @@ try:
         print 'Removing',inFile
         os.remove(inFile)
         
-    # Call RSYNC
-    # Sync files to Media Center after encode is complete
-    cmd = "/usr/bin/rsync --remove-source-files -azvP /Users/strangeluck/Media/Videos/ /mnt/Videos/"
-    print cmd
-    p = subprocess.Popen(cmd, shell=True).wait()
 finally:
     os.unlink(pidfile)
 
+# Call RSYNC
+# Sync files to Media Center after encode is complete
+cmd = "/usr/bin/rsync --remove-source-files -azvP /Users/strangeluck/Media/Videos/ /mnt/Videos/"
+print cmd
+p = subprocess.Popen(cmd, shell=True).wait()

@@ -8,7 +8,7 @@
 	<string>com.mediacenter_encode</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/strangeluck/Scripts/media_encodesync.py</string>
+		<string>/Users/strangeluck/Documents/GitHub/MediaCenterSync/media_encodesync.py</string>
 	</array>
 	<key>KeepAlive</key>
 	<true/>
